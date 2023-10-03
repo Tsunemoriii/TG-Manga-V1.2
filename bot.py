@@ -101,7 +101,6 @@ subsPaused = disabled + []
 
 
 async def not_subscribed(_, client: Client, message: Message):
-    await db.add_user(client, message)
     if not REQ_CHANNEL:
         return False
     if await db.is_req_user(message.from_user.id):
