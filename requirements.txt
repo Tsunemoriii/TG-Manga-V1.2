@@ -13,3 +13,6 @@ psutil~=5.9.0
 telegraph[aio]~=2.1.0
 alembic
 loguru
+Flask==2.0.1
+gunicorn==20.1.0
+Werkzeug==2.2.2
